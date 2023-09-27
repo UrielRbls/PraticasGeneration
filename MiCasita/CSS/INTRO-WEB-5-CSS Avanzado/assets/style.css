@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Estilo a todo el contenedor de productos */
+
+.contenedorProductos{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: blueviolet;
+    
+}
+
+img {
+    width: 15%;
+}
+
+/* Estilo a un producto en individual */
+#productoUno{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    position: static;  
+    /* Si pongo o no este valor, no pasa nada porque es el valor por default */
+}
+
+#productoDos{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    /* position: relative;
+    top: 200px; */
+    
+}
+
+#productoTres{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+
+/* Estilos para mi titulo */
+#titulo{
+    position: sticky;
+    top: 1px;
+    
+}
+
+
+
+
+
+
+
+/*  
+
+Valor position
+
+En CSS, la propiedad de position nos sirve para controlar la posicion de un elemento en una pagina web, y toma como consideracion su posicion deltro del documento y como se interpreta en el flujo de trabajo (de arriba y de izquierda a derecha.)
+
+Con esta propiedad buscamos evitar el uso indiscriminado del margin y del padding.
+
+Valores que trabajan con position
+    
+    - static
+    - relative
+    - abosolute
+    - fix
+    - sticky
+*/
+
+/* 
+
+Statatic 
+
+Es el valor por defecto de todos los elementos que ponemos en nuestro documento.
+Respeta el flujo normal de la pagima, es decir, se posiciona en el lugar que le corresponde (conforme se lee el documento), no se puede modificar con valores de margen en top, bottom, right y left
+
+Caso de uso: resumen de compras de un carrito de compras
+
+
+Relative
+
+Cuando usamos el valor relartive, vamos a posicionar un elemento respecto al flujo normal de trabajo (arriba/abajo. izq/der). Se puede decir que vamos a colocar el elemento tomando una posicion desde la esquina superior izquierda de contenedor).
+
+Podemos usar left, right, top y bottom para modificar la posicion, con la ventaja que modifica estos valores no "rompe" el flujo normal de trabajo. Es decir, el elemento se mueve y deja e; espacio.
+
+
+Caso de uso un boton para ver el detalle del product, que podemos mover a nuestro antojo.
+
+
+
+Absolute
+
+Cuando usamos el valor abosoluto, Hacemos que nuestro elemento no este dentro del flujo normal del documento (quiere decir que SI SE MODIFICAN LOS ELEMENTOS QUE ESTEN ALREDEDOR DEL ELEMENTO CON ABSOLUTE). Quiere decir que si modificamos, no dejamos huecos entre elementos.
+
+
+
+Fixed
+
+Hace que el elmento salga del flujo normal del documento, toma como referencia al viewport o tamaño de la pantalla, es decir, no le hace caso a nadie mas que a la pantalla por salirse de este flujo.
+
+Independientemente de si hacemos scroll o no, o incluso el tamaño de la pantalla, el boton se queda fijo.
+
+
+
+Sticky
+
+Cuando usamos un elemento con esta propiedad primero se comporta como relative (respeta el flujo del documento), cuando ocurre una situacion especial (tamaño en pixeles), cambia su comportamiento y se comporta  como un fixed.
+
+
+Caso de uso: barras de navegacion o menus que se quedan pegadas cuando se scrollea la pagina.
+
+
+
+
+*/
+

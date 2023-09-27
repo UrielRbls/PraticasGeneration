@@ -1,0 +1,41 @@
+/* Reglas 
+    
+- selector (p)
+- propiedad (color, fuente, etc)
+- valor (blue, xxlarge, times new roman, etc)
+
+
+Para poder seleccionar elementos html, tenemos tres formas de hacerlo
+
+
+- selectores por etiqueta (el estilo se aplica a TODAS las etiquetas coincidentes)
+- selectores por clase (elementos que forman parte de un grupo en comun)
+- selectores por id (elemento unico)
+
+La palabra resevada class para las clases (.)
+La palabra resevada id para los id (#)
+
+
+*/
+    
+    
+p {
+    background-color: blue;
+}
+
+
+#Brandon{
+    color: red;
+}
+
+#Edna{
+    color: yellow;
+}
+
+
+.CH31{
+    color: blue;
+}
+
+
+
